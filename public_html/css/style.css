@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 16, 2016, 10:50:03 PM
+    Author     : jobayer
+*/
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+header{
+    background-color:rgb(30,158,116);
+    
+   
+}
+#main{
+    border-top:1px solid rgb(52, 167, 130); 
+    border-bottom: 1px solid rgb(27, 146, 108);
+    
+   
+}
+#logo{
+    display:block;
+    margin-left: 30px;
+    padding: 5px 0px;
+    
+}
+#logo h1{
+    font-family: 'Lobster', cursive;
+    margin-top:-1px;
+    color: white;
+    
+}
+#logo h1 span{
+    font-size:13px;
+    padding-right:15px;
+}
+#menu{
+    display:inline-block;
+    vertical-align: top;
+    padding: 5px 0px;
+    
+    
+   
+}
+#menu ul{
+    margin-left: 5px;
+}
+#menu .navbar-nav li a{
+    color:white;
+    font-family: 'Lobster', cursive;
+    font-size:1.5em;
+}
+
+#menu .navbar-nav li a:hover{
+    color: black;
+    
+}
+
+#welcome{
+    padding: 50px 0px;
+}
+
+#welcome p,h2{
+    padding: 7px 0px;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+#welcome a{
+    background-color:rgb(100,105,155);
+    color:white;
+    padding:7px 25px;
+    text-decoration:none;
+}
+section h1{
+    color:black;
+    font-family:'Lobster', cursive;
+}
+#feature{
+       margin-bottom: 79px;
+       margin-top: 7px;
+
+}
+#feature h1{
+    text-align: center;
+    margin-bottom:7px;
+    padding-bottom: 7px;
+    border-bottom:1px solid rgb(27, 146, 108);
+    color: rgb(27, 146, 108);
+    
+}
+#feature p{
+    text-align:center;
+     
+}
+
+#top_feature_section .section-content{
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 147px;
+    
+}
+#top_feature_section .section-content h3{
+    font-family: 'Lobster',cursive;
+    color: rgb(27, 146, 108);
+}
+
+#top_feature_section .section-content a{
+    padding:6px 7px;
+    text-align:left;
+    background-color: rgb(27, 146, 108);
+    color: white;
+    text-decoration: none;
+}
+
+.bottom_feature_section{
+    margin-top: 10px;
+    margin-bottom:76px;
+}
+.bottom_feature_section img{
+    float: left;
+    margin-top: 18px;
+    padding-right: 30px;
+}
+.bottom_feature_section h3{
+    font-family: 'Lobster',cursive;
+    color: rgb(27, 146, 108);
+    
+}
+.bottom_feature_section a{
+    padding:7px 7px;
+    background-color:rgb(27, 146, 108);
+    color: white;
+    text-decoration: none;
+}
+#responsive_use{
+    background-color: rgb(238,241,236);
+}
